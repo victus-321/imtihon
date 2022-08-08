@@ -1,0 +1,64 @@
+.coptain {
+
+    display: flex;
+    margin-left: 165px;
+    margin-top: 160px;
+
+    &__img {
+        position: absolute !important;
+        margin-left: -165px;
+        z-index: -1;
+        margin-top: 40px;
+    }
+
+    &__list {
+        margin-right: 2px;
+
+        &__image {
+            margin-left: 30px;
+        }
+
+        &__item {
+
+
+            &__ul {
+
+                &--li:nth-child(1) {
+                    font-family: 'Space Mono', monospace;
+                    color: rgba(73, 85, 103, 1);
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    letter-spacing: -1.0714285373687744px;
+                    text-align: left;
+                    padding-bottom: 27px;
+                    padding-top: 40px;
+                }
+
+                &--li {
+                    font-family: 'Lexend Deca', sans-serif;
+                    color: rgba(147, 156, 170, 1);
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 25px;
+                    letter-spacing: 0px;
+                    text-align: left;
+
+                }
+
+
+            }
+
+
+        }
+    }
+
+
+
+
+
+
+
+
+
+}

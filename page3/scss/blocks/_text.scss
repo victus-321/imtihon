@@ -1,0 +1,66 @@
+.text {
+
+    font-family: 'Space Mono', monospace;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: center;
+    margin-bottom: 103px;
+    margin-top: 238px;
+}
+
+.text1 {
+
+    font-family: 'Space Mono', monospace;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: center;
+    margin-bottom: 64px;
+    margin-top: 120px;
+}
+
+
+
+@media (max-width: 768px) and (min-width: 376px) {
+
+
+
+
+
+
+    .text {
+        width: 768px;
+        font-family: 'Space Mono', monospace;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -2.142857074737549px;
+        text-align: center;
+        margin-bottom: 103px;
+        margin-top: 238px;
+    }
+
+    .text1 {
+        width: 768px;
+        font-family: 'Space Mono', monospace;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -2.142857074737549px;
+        text-align: center;
+        margin-bottom: 64px;
+        margin-top: 120px;
+    }
+
+
+
+
+
+
+
+
+
+}

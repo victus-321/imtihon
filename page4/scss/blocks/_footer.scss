@@ -1,0 +1,233 @@
+.footer {
+    margin-top: 122px;
+
+    &__text {
+        display: flex;
+        align-items: center;
+        padding: 102px 165px 102px 165px;
+        height: 300px;
+        width: 1440px;
+        background-color: rgba(73, 85, 103, 1);
+
+        &__img {
+
+            position: absolute;
+            margin-top: 71px;
+            margin-left: 277px;
+        }
+
+
+        &__list {
+            margin-right: 306px;
+
+            &__ul {
+                color: rgba(255, 255, 255, 1);
+
+                &--li {
+                    font-family: 'Space Mono', monospace;
+                    font-size: 48px;
+                    font-weight: 700;
+                    line-height: 48px;
+                    letter-spacing: -2.142857074737549px;
+                    text-align: left;
+
+                }
+
+
+            }
+        }
+
+
+        &__appstore {
+            cursor: pointer;
+            height: 56px;
+            width: 159px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            background-color: rgba(229, 236, 244, 1);
+            margin-right: 18px;
+
+            &__img {
+                margin-right: -19px;
+                height: 28.000186920166016px;
+                width: 24.266666412353516px;
+                margin-left: 16px;
+
+            }
+
+            &__ul {
+                margin-top: 15px;
+
+                &--li {
+                    font-family: 'Space Mono', monospace;
+                }
+
+                &--li:nth-child(1) {
+                    font-family: 'Space Mono', monospace;
+                    font-size: 10px;
+                    font-weight: 700;
+                    line-height: 15px;
+                    letter-spacing: -0.4464285671710968px;
+                    text-align: left;
+
+                }
+
+                &--li:nth-child(2) {
+                    font-family: 'Space Mono', monospace;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: -0.8928571343421936px;
+                    text-align: left;
+                }
+
+
+
+
+            }
+
+        }
+
+
+
+
+
+
+
+
+
+
+        &__playstore {
+            height: 56px;
+            width: 182px;
+            cursor: pointer;
+            border-radius: 4px;
+
+            display: flex;
+            align-items: center;
+            background-color: rgba(229, 236, 244, 1);
+
+            &__img {
+                margin-right: -19px;
+                height: 28.000186920166016px;
+                width: 24.266666412353516px;
+                margin-left: 16px;
+
+            }
+
+            &__ul {
+                margin-top: 15px;
+
+                &--li {
+                    font-family: 'Space Mono', monospace;
+                }
+
+                &--li:nth-child(1) {
+                    font-family: 'Space Mono', monospace;
+                    font-size: 10px;
+                    font-weight: 700;
+                    line-height: 15px;
+                    letter-spacing: -0.4464285671710968px;
+                    text-align: left;
+
+                }
+
+                &--li:nth-child(2) {
+                    font-family: 'Space Mono', monospace;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: -0.8928571343421936px;
+                    text-align: left;
+                }
+
+
+
+
+            }
+
+
+        }
+
+
+    }
+
+
+
+    &__head {
+        background-color: rgba(51, 58, 68, 1) !important;
+
+        padding: 35px 0px 32.44px 0px;
+        height: 96px;
+        width: 1440px;
+
+
+
+        &__list {
+
+            display: flex;
+            align-items: center;
+
+
+            &__image {
+                margin-left: 169px;
+                margin-right: 35px;
+
+                &__img {
+
+                    height: 28.559999465942383px;
+                    width: 107.81714630126953px;
+
+                }
+
+            }
+
+            &__headul {
+                font-family: 'Space Mono', monospace !important;
+                font-weight: 700;
+                display: flex;
+                align-items: center;
+
+                &__headli {
+
+
+                    &--link {
+                        text-decoration: none;
+                        color: rgba(147, 156, 170, 1);
+
+                    }
+
+                    &--link:hover {
+                        text-decoration: none;
+                        color: rgba(252, 183, 43, 1);
+
+                    }
+                }
+
+
+            }
+
+            &__program {
+
+                margin-right: 165px;
+
+                margin-left: 511px;
+
+
+                cursor: pointer;
+
+
+            }
+
+
+
+        }
+
+
+    }
+
+
+
+
+}

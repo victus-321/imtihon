@@ -1,0 +1,134 @@
+.footer-box {
+    height: 300px;
+    width: 1440px;
+    background-color: #495567;
+    display: flex;
+    margin-top: 30px;
+
+    &__ul {
+        margin: 102px 336px 102px 165px;
+
+        &__li {
+            font-family: 'Space Mono', monospace;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 48px;
+            letter-spacing: -2.142857074737549px;
+            text-align: left;
+            color: #FFFFFF;
+        }
+
+    }
+
+    &__img {
+        position: absolute;
+        margin: 142px;
+        margin-left: 442px;
+    }
+
+    &__appstore {
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        display: flex;
+        align-items: center;
+        height: 56px;
+        width: 159px;
+        background-color: #E5ECF4;
+        margin-top: 122px;
+        margin-right: 18px;
+
+
+        &__img {
+            height: 28.000186920166016px;
+            width: 24.266666412353516px;
+
+            border-radius: 0px;
+
+
+            margin-left: 16px;
+        }
+
+        &__ul {
+
+            margin-left: -20px;
+            margin-top: 20px;
+
+            &__li:nth-child(1) {
+                font-family: 'Space Mono', monospace;
+                font-size: 10px;
+                font-weight: 700;
+                line-height: 15px;
+                letter-spacing: -0.4464285671710968px;
+                text-align: left;
+
+            }
+
+            &__li:nth-child(2) {
+                font-family: 'Space Mono', monospace;
+
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: -0.8928571343421936px;
+                text-align: left;
+
+            }
+        }
+    }
+
+    &__google-play {
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        display: flex;
+        align-items: center;
+        height: 56px;
+        width: 182px;
+        margin-top: 122px;
+
+        background-color: #E5ECF4;
+
+        &__img {
+            height: 28.000186920166016px;
+            width: 24.266666412353516px;
+
+            border-radius: 0px;
+
+
+            margin-left: 16px;
+        }
+
+        &__ul {
+
+            margin-left: -25px;
+            margin-top: 20px;
+
+            &__li:nth-child(1) {
+                font-family: 'Space Mono', monospace;
+                font-size: 10px;
+                font-weight: 700;
+                line-height: 15px;
+                letter-spacing: -0.4464285671710968px;
+                text-align: left;
+
+            }
+
+            &__li:nth-child(2) {
+                font-family: 'Space Mono', monospace;
+
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: -0.8928571343421936px;
+                text-align: left;
+
+            }
+        }
+
+    }
+}

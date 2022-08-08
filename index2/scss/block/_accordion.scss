@@ -1,0 +1,47 @@
+.accordion1 {
+    height: 191px;
+    width: 730px;
+
+
+}
+
+.bg-color {
+
+
+    background-color: rgba(242, 245, 249, 1);
+}
+
+.border__accordion {
+
+    border-bottom: solid;
+    border-color: white;
+
+}
+
+
+@media (max-width: 768px) and (min-width: 376px) {
+
+
+
+    .accordion1 {
+        height: 191px;
+        width: 689px;
+
+
+    }
+
+    .bg-color {
+
+
+        background-color: rgba(242, 245, 249, 1);
+    }
+
+    .border__accordion {
+
+        border-bottom: solid;
+        border-color: white;
+
+    }
+
+
+}

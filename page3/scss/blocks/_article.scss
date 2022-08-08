@@ -1,0 +1,339 @@
+.article {
+    display: flex;
+    align-items: center;
+    margin-top: 210px;
+
+
+    &__text {
+
+        margin-left: 165px;
+        margin-right: 220px;
+
+        &__ul {
+
+            &--li:nth-child(1) {
+                font-family: 'Space Mono', monospace;
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 48px;
+                letter-spacing: -2.142857074737549px;
+                text-align: left;
+                color: rgba(73, 85, 103, 1);
+            }
+
+            &--li:nth-child(2) {
+                font-family: 'Space Mono', monospace;
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 48px;
+                letter-spacing: -2.142857074737549px;
+                text-align: left;
+                padding-bottom: 24px;
+                color: rgba(73, 85, 103, 1);
+            }
+
+            &--li {
+                color: rgba(147, 156, 170, 1);
+                font-family: 'Lexend Deca', sans-serif;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 25px;
+                letter-spacing: 0px;
+                text-align: left;
+            }
+
+
+        }
+
+
+
+
+    }
+
+
+
+    &__image {
+
+        &__img {
+            z-index: 1;
+            animation-name: airplan;
+            animation-duration: 5s;
+            animation-fill-mode: forwards;
+            margin-top: -220px;
+            position: absolute;
+            border-radius: 100%;
+
+            &__image {
+                border-radius: 100%;
+
+
+            }
+        }
+
+        &__nextto {
+            width: 445px;
+            height: 445px;
+            background-color: rgba(229, 236, 244, 1);
+            position: absolute;
+            border-radius: 100%;
+            margin-left: 510px;
+            margin-top: -220px;
+
+        }
+
+        &__images {
+            position: absolute;
+            margin-top: 80px;
+            margin-left: -135px;
+            height: 150.4427032470703px;
+            width: 740.0595092773438px;
+            z-index: 1;
+
+
+        }
+
+
+
+
+    }
+
+    @keyframes airplan {
+
+        0% {
+            width: 445px;
+            position: absolute;
+            right: -315px;
+
+        }
+
+        100% {
+            width: 445px;
+            position: absolute;
+            right: 145px;
+
+
+        }
+
+        100% {
+            width: 445px;
+            position: absolute;
+            right: 245px;
+
+        }
+
+        100% {
+            width: 445px;
+            position: absolute;
+
+            right: 345px;
+
+        }
+
+        100% {
+            width: 445px;
+            position: absolute;
+
+            right: 445px;
+
+        }
+
+        100% {
+            width: 445px;
+            position: absolute;
+
+            right: 180px;
+
+        }
+    }
+}
+
+@media (max-width: 768px) and (min-width: 376px) {
+
+
+
+    .article {
+        display: block;
+        align-items: center;
+        margin-top: 210px;
+        text-align: center;
+
+        width: 768px;
+
+        &__text {
+
+
+            display: block;
+
+            margin-left: 127px;
+
+            &__ul {
+                margin-top: 650px;
+
+                &--li:nth-child(1) {
+                    font-family: 'Space Mono', monospace;
+                    font-size: 48px;
+                    font-weight: 700;
+                    line-height: 48px;
+                    letter-spacing: -2.142857074737549px;
+                    text-align: left;
+                    color: rgba(73, 85, 103, 1);
+
+
+                    width: 457px;
+
+                }
+
+                &--li:nth-child(2) {
+                    font-family: 'Space Mono', monospace;
+                    font-size: 48px;
+                    font-weight: 700;
+                    line-height: 48px;
+                    letter-spacing: -2.142857074737549px;
+                    text-align: left;
+                    padding-bottom: 24px;
+                    color: rgba(73, 85, 103, 1);
+                    padding-left: 70px;
+
+                    width: 457px;
+
+
+
+
+
+                    margin-bottom: 20px;
+                }
+
+                &--li:nth-child(4) {
+                    padding-left: 25px;
+                    width: 573px;
+                }
+
+                &--li:nth-child(3) {
+
+                    width: 573px;
+                }
+
+                &--li:nth-child(5) {
+                    width: 573px;
+
+                }
+
+                &--li:nth-child(6) {
+                    width: 573px;
+                    padding-left: 110px;
+                }
+
+
+
+                &--li {
+
+
+
+                    color: rgba(147, 156, 170, 1);
+                    font-family: 'Lexend Deca', sans-serif;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 25px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                }
+
+
+            }
+
+
+
+
+        }
+
+
+
+        &__image {
+
+            &__img {
+                z-index: 1;
+                animation-name: airplan;
+                animation-duration: 5s;
+                animation-fill-mode: forwards;
+                margin-top: -850px;
+                position: absolute;
+            }
+
+            &__nextto {
+                width: 445px;
+                height: 445px;
+                background-color: rgba(229, 236, 244, 1);
+                position: absolute;
+                border-radius: 100%;
+                margin-left: 660px;
+                margin-top: -850px;
+
+            }
+
+            &__images {
+                position: absolute;
+                margin-top: -580px;
+                margin-left: -350px;
+                height: 150.4427032470703px;
+                width: 740.0595092773438px;
+                z-index: 1;
+
+
+            }
+
+
+
+
+        }
+
+        @keyframes airplan {
+
+            0% {
+                width: 445px;
+                position: absolute;
+                right: -315px;
+
+            }
+
+            100% {
+                width: 445px;
+                position: absolute;
+                right: 145px;
+
+
+            }
+
+            100% {
+                width: 445px;
+                position: absolute;
+                right: 245px;
+
+            }
+
+            100% {
+                width: 445px;
+                position: absolute;
+
+                right: 345px;
+
+            }
+
+            100% {
+                width: 445px;
+                position: absolute;
+
+                right: 445px;
+
+            }
+
+            100% {
+                width: 445px;
+                position: absolute;
+
+                right: 140px;
+
+            }
+        }
+    }
+
+}
